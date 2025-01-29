@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>A Random Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #FAFAD2; /* light goldenrod color */
+      color: #333;
+    }
+
+    header {
+      background-color: #698B69;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    nav {
+      background-color: #eee;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      padding: 0.5rem 1rem;
+      border: 1px solid #333;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #555;
+      background-color: #eee;
+    }
+
+    .random-image {
+      display: block;
+      margin: 2rem auto;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #333;
+    }
+
+    .random-box {
+      background-color: #f8f8f8;
+      border: 2px dashed #333;
+      padding: 1rem;
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    .highlight {
+      color: #bf0000;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Randomness Unleashed</h1>
+  </header>
+
+  <nav>
+    <a href="#cats">Cats</a>
+    <a href="#dogs">Dogs</a>
+    <a href="#unicorns">Unicorns</a>
+  </nav>
+
+  <main>
+    <h2>Welcome to This Random Site</h2>
+    <p>We have no idea why you're here, but we're thrilled that you found us! Explore the random content below.</p>
+
+    <section id="cats">
+      <h3>Cats</h3>
+      <img 
+        src="https://via.placeholder.com/200.png?text=Random+Cat+Pic" 
+        alt="Random Cat" 
+        class="random-image"
+      >
+      <p>Cats are mysterious, playful, and sleep about 15 hours a day. Sometimes, they stare at the wall for no reason. Fancy a cat nap?</p>
+      <div class="random-box">
+        Random Fact: Cats can rotate their ears <span class="highlight">180 degrees</span>.
+      </div>
+    </section>
+
+    <section id="dogs">
+      <h3>Dogs</h3>
+      <img 
+        src="https://via.placeholder.com/200.png?text=Random+Dog+Pic" 
+        alt="Random Dog"
+        class="random-image"
+      >
+      <p>Dogs are man’s best friend and they usually greet you like a rockstar after you’ve been gone for just five minutes.</p>
+      <div class="random-box">
+        Random Fact: Dogs have a sense of smell that's <span class="highlight">40 times</span> more powerful than ours.
+      </div>
+    </section>
+
+    <section id="unicorns">
+      <h3>Unicorns</h3>
+      <img 
+        src="https://via.placeholder.com/200.png?text=Random+Unicorn+Pic" 
+        alt="Random Unicorn"
+        class="random-image"
+      >
+      <p>Unicorns might be mythical, but that doesn't stop us from believing in their sparkly magic.</p>
+      <div class="random-box">
+        Random Fact: Unicorns' horns are called <span class="highlight">alicorns</span> (at least, that’s what people say).
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - The Completely Random Co.</p>
+  </footer>
+
+</body>
+</html>
